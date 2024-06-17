@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import GameOver from './components/GameOver'
+import GameOver from './components/gameOver'
 import Card from './components/Card'
 import './App.css'
 
