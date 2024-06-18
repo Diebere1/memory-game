@@ -134,5 +134,28 @@ button {
 }
 
 @media screen and (max-width: 475px) {
-  
+  html,
+  body{
+    width:100%;
+    overflow-x: hidden;
+    box-sizing:border-box;
+    background-color: #3e6623;
+  }
+  h1 {
+    font-size: 25px;
+    padding-left: 10px;
+    text-align: left;
+    /* max-width:400px; */
+  }
+  h3 {
+    padding-left: 10px;
+  }
+  .card{
+    height: 80px;
+    width: 80px;
+  }
+  img{
+    width: 70px;
+    height: 70px;
+  }
 }

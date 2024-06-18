@@ -45,6 +45,7 @@ function App() {
   const [gameOver, setGameOver] = useState([false])
   const [bestScore, setBestScore] = useState(0)
 
+  // shuffle the images function
   const shuffleImages = () => {
     // double the array 
     const shuffleArray = [...arrayOfImages, ...arrayOfImages]
@@ -88,6 +89,7 @@ function App() {
     }
   }, [score])
 
+  // check if the two images selected matched 
   const checkMatch = () =>{
     if(selectedCard[0].num === selectedCard[1].num){
       // updating and re-render the scores 
@@ -118,6 +120,7 @@ function App() {
     }
   }
 
+  // the return statement to render Dom 
   return (
     <>
       {gameOver && 
